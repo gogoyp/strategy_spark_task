@@ -1,0 +1,13 @@
+spring:
+  redis:
+        hosts: 10.19.9.27:7000,10.19.9.27:7001,10.19.9.27:7002,10.19.9.27:7003,10.19.9.27:7004,10.19.9.27:7005
+  config:
+        active: local
+---
+cache:
+  boot:
+        config: true
+---
+owner:
+  program:
+        project: strategy_spark_task
